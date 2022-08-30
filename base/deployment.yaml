@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: cicd-demo-container
-        image: minghsu0107/cicd-demo:latest
+        image: tutum/hello-world:latest
         ports:
         - containerPort: 8000
         env:

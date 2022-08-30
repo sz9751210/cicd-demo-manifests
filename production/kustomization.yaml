@@ -9,5 +9,5 @@ patches:
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 images:
-- name: minghsu0107/cicd-demo
+- name: tutum/hello-world
   newTag: main-b7d5a0f
